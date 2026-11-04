@@ -1,9 +1,9 @@
 @import url(../vendor/normalize.css);
-@import url(../block/index.css);
-@import url(../block/header.css);
-@import url(../block/content.css);
-@import url(../block/lead.css);
-@import url(../block/intro.css);
-@import url(../block/footer.css);
-@import url(../block/page.css);
+@import url(../blocks/index.css);
+@import url(../blocks/header.css);
+@import url(../blocks/content.css);
+@import url(../blocks/lead.css);
+@import url(../blocks/intro.css);
+@import url(../blocks/footer.css);
+@import url(../blocks/page.css);
 
