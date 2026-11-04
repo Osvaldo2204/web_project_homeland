@@ -1,14 +1,22 @@
 .header {
-  padding-top: 31px;
-  display: flex;
-  justify-content: center;
-}
-.header__logo {
-  display: block;
-  width: 254px;
-  height: 70px;
+  padding: 40px 24px 0;
+  text-align: center;
 }
 
-@media (max-width: 767px) {
-  .header__logo { width: 200px; height: auto; }
+.header__logo {
+  display: block;
+  width: 250px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+@media (max-width: 620px) {
+  .header {
+    padding: 24px 16px 0;
+  }
+
+  .header__logo {
+    width: 190px;
+  }
 }

@@ -1,13 +1,13 @@
-:root {
-  --bg: #2a2c2f;
-  --text: #fff;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 .page {
   margin: 0;
-  background: var(--bg);
-  color: var(--text);
+  background-color: #27292d;
+  color: #fff;
   font-family: "Inter", Arial, sans-serif;
-  font-weight: 400;
   -webkit-font-smoothing: antialiased;
 }
