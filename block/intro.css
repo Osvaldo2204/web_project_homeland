@@ -1,5 +1,53 @@
-.header {
-  padding: 24px 0;
-  display: flex;
-  justify-content: center;
+.intro { padding: 90px 0 100px; }
+
+@media (max-width: 1279px) {
+  .intro { padding: 90px 24px 100px; }
+}
+
+@media (max-width: 767px) {
+  .intro { padding: 64px 14px 84px; }
+}
+.intro__title {
+  max-width: 830px;
+  margin: 0;
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 900;
+}
+
+@media (max-width: 1279px) {
+  .intro__title { font-size: 40px; }
+}
+
+@media (max-width: 767px) {
+  .intro__title { font-size: 24px; line-height: 1.5; }
+}
+
+.intro__text {
+  max-width: 723px;
+  margin: 40px 0 0;
+  font-size: 13px;
+  line-height: 2;
+}
+
+@media (max-width: 767px) {
+  .intro__text { font-size: 14px; line-height: 1.9; }
+}
+
+.intro__quote {
+  max-width: 730px;
+  margin: 32px 0 0;
+}
+.intro__quote-text {
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.45;
+}
+
+.intro__author {
+  display: block;
+  margin-top: 4px;
+  font-size: 20px;
+  font-style: normal;
+  text-align: right;
 }
